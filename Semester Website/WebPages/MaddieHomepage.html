@@ -1,0 +1,80 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+        <header> WELCOME TO Maddie Wilbert's Personal Info Website!!!</header>
+        
+        <body>
+            <h1
+            <p> Here, you can explore all the wonderful things about my sister, Madison Wilbert. </p>
+            <p> Before you begin, please indicate how muhc you know about Madison Wilbert.</p>
+        </h1>
+
+        
+  <form id="Form">Please select one of the options below:
+        <br>
+    <input type="radio" id="nothing" name="maddie_knowledge" value="nothing">
+<label for="nothing"> I don't know anything</label
+    > 
+<br>
+<input type="radio" id="a_little" name="maddie_knowledge" value="a_little">
+<label for="a_little">I know a little about her</label><br>
+<input type="radio" id="a_lot" name="maddie_knowledge" value="a_lot"
+> 
+
+<label for="a_lot"> I know A LOT</label><br>
+<button type="button"onclick="checkRadioButton()">Submit</button> 
+ <div id="Bmessage"> Please answer! PLEASE! </div> </form>
+
+
+
+
+    <script> 
+    function checkRadioButton() {
+        var nothing = document.getElementById("nothing");
+        var a_little = document.getElementById("a_little");
+        var a_lot = document.getElementById("a_lot");
+        var BmessageDiv = document.getElementById("Bmessage");
+
+
+
+        
+        if (!nothing.checked && !a_little.checked && !a_lot.checked) {
+            BmessageDiv.innerText = "Please!!! SELECT ONE!" ; 
+            BmessageDiv.style.fontSize = "20px"
+        } else {
+            BmessageDiv.innerText = "THANKS!!!";
+        }
+    }
+    
+    
+    
+    
+        
+
+    </script> 
+<h2> To learn about her High School Life click the hyperlink below!</h1>
+    <a href="http://127.0.0.1:3000/WebPages/Maddie's High School life"> Go to Maddie's High School Era!</a>
+    <br>
+<a href="http://127.0.0.1:3000/WebPages/Maddie's Interests.html"> Go to the Interest's Page</a>
+    <br>
+<a href="http://127.0.0.1:3000/WebPages/Maddie's extracurriculars.html">Go to her Extracurriculars</a>
+    <br>
+<a href="http://127.0.0.1:3000/WebPages/Middle School">Go to the Middle School Era</a>
+
+
+
+<style>
+    header {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing:3px;
+}
+    h1 {font-size:medium; color:rgb(11, 112, 163); text-shadow: 1px 2.5px 1.3px rgb(197, 151, 241);
+    }
+</style>
+
+
+
+        </body>
+    </head>
+    </html>
+    </DOCTYPE>
+    
