@@ -12,18 +12,13 @@
 
 </header>
 <h3> 
-    Here is a spreadhseet of her current schedule!
+    Here is a spreadsheet of her current schedule!
 </h3>
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR564C_bOLKFYn1G18R_T4E_OdfPeGl_ceuDkS9aJAQuMM6qmd6_gfnUbIXLz1UDEaziiVJ8QpO6LZW/pubhtml?gid=545893366&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="500">
-
-</iframe>
+<a href="Maddie weekly schedule.xlsx">Click here for her weekly schedule!</a>
 
 <p> One of the subjects Maddie takes this year is chemistry. Because of this she is constanly looking at the periodic table!</p>
-    <object
-    type="application/pdf"
-    data="https://drive.google.com/file/d/1zlkodIx8347ApQLGlV5PRhF3CXPCz3VI/view?usp=sharing"
-    width="300px" 
-    height="300px"
+   <br>
+<a href="2ChemPhys.pdf">Link to Periodic Table!</a>
 
 <style>
     
