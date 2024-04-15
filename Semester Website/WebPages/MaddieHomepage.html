@@ -2,6 +2,35 @@
     <html lang="en">
     <head>
         <header> WELCOME TO Maddie Wilbert's Personal Info Website!!!</header>
+
+<body>
+  <h1>Test Birthday Countdown</h1>
+  <p>Today's date: <span id="current-date"></span></p>
+  <p>Madison's birthday is in <span id="countdown"></span></p>
+  <script>
+    function todaysDate() {
+      var today = new Date();
+      var day = today.getDate();
+      var month = today.getMonth() + 1; // Months are zero-based
+      var year = today.getFullYear();
+      return month + '/' + day + '/' + year;
+    }
+    function calculateDaysUntilBirthday(birthday) {
+      var today = new Date();
+      var nextBirthday = new Date(today.getFullYear(), birthday.getMonth(), birthday.getDate());
+      if (today > nextBirthday) {
+        nextBirthday.setFullYear(today.getFullYear() + 1);
+      }
+      var daysUntilBirthday = Math.ceil((nextBirthday - today) / (1000 * 60 * 60 * 24));
+      return daysUntilBirthday;
+    }
+    var bDay = new Date("2008-07-21"); // Replace with your actual birthday in 'YYYY-MM-DD' format
+    document.getElementById("current-date").innerText = todaysDate();
+    var bDayCountdown = calculateDaysUntilBirthday(bDay);
+    document.getElementById("countdown").innerText = bDayCountdown + " days!";
+  </script>
+</body>
+
         
         <body>
             <h1
