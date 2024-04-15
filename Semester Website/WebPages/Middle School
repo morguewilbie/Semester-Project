@@ -6,6 +6,27 @@
 <a href="http://127.0.0.1:3000/WebPages/MaddieHomepage.html">Go back to the HomePage</a>
 <h2> Maddie enterted moddle school around 2019, right before Covid-19. </h2>
 </header>
+
+<h3> <em> Here are the electives Maddie took in</em> <b>Middle School!</b>
+</h3>
+<ol>
+    <li> Video Production</li>
+    <li>French </li>
+   <li> Spanish </li>
+    <li> German</li>
+    <li>Choir</li>
+</ol>
+
+    </html>
+<h3>
+    Maddie has a document about herself, that includes information about her middle school
+</h3>
+<a href="The Madison Document.docx">Click Here to Look at the Document</a>
+<style>
+    h3 {
+        color: rgb(174, 9, 9);
+    }
+
     </html>
 
 </DOCTYPE>
