@@ -4,10 +4,11 @@
 
 
 <a href="http://127.0.0.1:3000/WebPages/MaddieHomepage.html">Go back to the HomePage</a>
-<h2> Maddie enterted moddle school around 2019, right before Covid-19. </h2>
+<h2> <u>Maddie entered middle school around 2019, right before Covid-19. So, there's not much that happened during that time!</u> </h2>
+<p> <i> so sad :(</i> </p>
 </header>
 
-<h3> <em> Here are the electives Maddie took in</em> <b>Middle School!</b>
+<h3>  Here are the electives Maddie took in <b>Middle School!</b>
 </h3>
 <ol>
     <li> Video Production</li>
@@ -25,8 +26,14 @@
 <style>
     h3 {
         color: rgb(174, 9, 9);
+        font-weight: lighter;
     }
+h2 {
+    font-size: 2.3ch;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-    </html>
 
+}
+
+</style>
 </DOCTYPE>
